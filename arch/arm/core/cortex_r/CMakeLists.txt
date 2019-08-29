@@ -8,4 +8,5 @@ zephyr_library_sources(
   fault.c
   reboot.c
   stacks.c
+  tcm.c
   )

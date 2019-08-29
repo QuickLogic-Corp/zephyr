@@ -86,6 +86,12 @@ config GEN_ISR_TABLES
 config GEN_IRQ_VECTOR_TABLE
 	default n
 
+config DISABLE_TCM_ECC
+	bool
+	default n
+	help
+	  This option disables ECC checks on Tightly Coupled Memory.
+
 endif # CPU_CORTEX_R
 
 endif # CPU_CORTEX_R

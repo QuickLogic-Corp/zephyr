@@ -15,6 +15,7 @@
 #include <linker/sections.h>
 #include <arch/cpu.h>
 #include <offsets_short.h>
+#include <cortex_r/tcm.h>
 #include "vector_table.h"
 
 _ASM_FILE_PROLOGUE
@@ -97,6 +98,10 @@ SECTION_SUBSEC_FUNC(TEXT,_reset_section,__start)
 #if defined(CONFIG_WDOG_INIT)
 	/* board-specific watchdog initialization is necessary */
 	bl z_arm_watchdog_init
+#endif
+
+#if defined(CONFIG_DISABLE_TCM_ECC)
+	bl disable_ecc
 #endif
 
 	b z_arm_prep_c
