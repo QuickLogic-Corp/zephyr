@@ -23,10 +23,10 @@
 	soc {
 		interrupt-parent = <&gic>;
 
-		gic: interrupt-controller@f9010000  {
+		gic: interrupt-controller@f9000000  {
 			compatible = "arm,gic";
-			reg = <0xf9010000 0x1000>,
-					<0xf9020000 0x100>;
+			reg = <0xf9000000 0x1000>,
+					<0xf9001000 0x1000>;
 			interrupt-controller;
 			#interrupt-cells = <3>;
 			label = "GIC";
