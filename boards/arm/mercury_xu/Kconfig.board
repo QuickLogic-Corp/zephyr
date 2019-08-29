@@ -1,0 +1,6 @@
+# Copyright (c) 2019, Antmicro
+# SPDX-License-Identifier: Apache-2.0
+config BOARD_MERCURY_XU_BOARD
+	bool "Mercury XU Board"
+	depends on SOC_XILINX_ZYNQMP
+	select DISABLE_TCM_ECC

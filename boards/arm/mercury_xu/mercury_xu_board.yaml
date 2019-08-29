@@ -1,0 +1,18 @@
+# Copyright (c) 2019, Antmicro
+identifier: mercury_xu_board
+name: MERCURY-XU-BOARD
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gccarmemb
+ram: 64
+testing:
+  ignore_tags:
+   - nmi
+   - benchmark
+   - interrupt
+   - bluetooth
+   - socket
+   - crypto
+   - net
