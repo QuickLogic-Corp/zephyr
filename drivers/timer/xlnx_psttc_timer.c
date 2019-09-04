@@ -194,3 +194,27 @@ u32_t z_timer_cycle_get_32(void)
 {
 	return accumulated_cycles;
 }
+
+
+/**
+ *
+ * @brief Place system timer into idle state
+ *
+ * This is a dummy for tickless kerner driver api
+ *
+ * @return N/A
+ */
+void z_timer_idle_enter(s32_t ticks)
+{
+
+}
+
+/**
+ * This is a dummy for tickless kernel driver api
+ *
+ * @return N/A
+ */
+void z_set_time(u32_t time)
+{
+
+}
