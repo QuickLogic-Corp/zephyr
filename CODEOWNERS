@@ -69,6 +69,7 @@
 /boards/arm/cc1352r1_launchxl/            @bwitherspoon
 /boards/arm/cc26x2r1_launchxl/            @bwitherspoon
 /boards/arm/cc3220sf_launchxl/            @vanti
+/boards/arm/chandalar/                    @kowalewskijan @kgugala
 /boards/arm/disco_l475_iot1/              @erwango
 /boards/arm/frdm*/                        @MaureenHelm
 /boards/arm/frdm*/doc/                    @MaureenHelm @MeganHansen

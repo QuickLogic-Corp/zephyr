@@ -1,0 +1,11 @@
+# QuickLogic Chandalar board
+
+# Copyright (c) 2020 Antmicro <www.antmicro.com>
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_CHANDALAR
+
+config BOARD
+	default "chandalar"
+
+endif # BOARD_CHANDALAR

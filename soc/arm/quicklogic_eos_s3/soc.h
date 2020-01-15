@@ -9,7 +9,7 @@
 
 #include <sys/util.h>
 #include <eoss3_dev.h>
-#include <generated_dts_board.h>
+#include <devicetree.h>
 
 /* Available frequencies */
 #define HSOSC_1MHZ	1024000

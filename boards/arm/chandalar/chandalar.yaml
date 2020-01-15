@@ -1,0 +1,12 @@
+identifier: chandalar
+name: QuickLogic Chandalar
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+testing:
+  ignore_tags:
+    - net
+    - bluetooth
