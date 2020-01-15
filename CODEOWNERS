@@ -36,6 +36,7 @@
 /soc/arm/nxp*/                            @MaureenHelm
 /soc/arm/nordic_nrf/                      @ioannisg
 /soc/arm/qemu_cortex_a53/                 @carlocaione
+/soc/arm/quicklogic_eos_s3/               @kowalewskijan @kgugala
 /soc/arm/st_stm32/                        @erwango
 /soc/arm/st_stm32/stm32f4/                @rsalveti @idlethread
 /soc/arm/st_stm32/stm32mp1/               @arnopo
