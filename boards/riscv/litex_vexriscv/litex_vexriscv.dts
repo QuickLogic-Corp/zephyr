@@ -65,3 +65,15 @@
 &gpio_in {
 	status = "okay";
 };
+
+&clk0 {
+	status = "okay";
+};
+
+&clk1 {
+	status = "okay";
+};
+
+&clock0 {
+	status = "okay";
+};
